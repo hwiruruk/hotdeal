@@ -1,0 +1,50 @@
+name: Scrape hotdeals
+
+on:
+  schedule:
+    - cron: "*/15 * * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - "scrape.py"
+      - "scrapers/**"
+      - ".github/workflows/scrape.yml"
+
+concurrency:
+  group: scrape
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install deps
+        run: pip install -r requirements.txt
+
+      - name: Run scraper
+        run: python scrape.py
+        continue-on-error: true
+
+      - name: Commit data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if [[ -n "$(git status --porcelain docs/data/deals.json)" ]]; then
+            git add docs/data/deals.json
+            git commit -m "chore: update deals $(date -u +%Y-%m-%dT%H:%MZ)"
+            git push
+          else
+            echo "No changes."
+          fi
