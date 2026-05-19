@@ -9,7 +9,7 @@ from datetime import datetime, timezone
 from scrapers import SOURCES
 
 OUTPUT_PATH = os.path.join(os.path.dirname(__file__), "docs", "data", "deals.json")
-MAX_HISTORY_PER_SOURCE = 200
+MAX_HISTORY_PER_SOURCE = 500
 
 
 def load_existing():

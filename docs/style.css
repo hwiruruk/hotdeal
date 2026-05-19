@@ -80,6 +80,10 @@ button:hover { border-color: var(--accent); }
 .col-body::-webkit-scrollbar-thumb { background: var(--border); border-radius: 4px; }
 .col-empty { padding: 16px; color: var(--muted); font-size: 12px; text-align: center; }
 
+.more-btn { display: block; width: calc(100% - 16px); margin: 8px; padding: 8px 10px; background: var(--panel-2); border: 1px dashed var(--border); border-radius: 8px; color: var(--muted); font-size: 12px; cursor: pointer; }
+.more-btn:hover { color: var(--text); border-color: var(--accent); border-style: solid; }
+.more-btn-wide { width: 100%; margin: 12px 0 0; padding: 12px; font-size: 13px; }
+
 .row { display: block; padding: 10px 12px; border-bottom: 1px solid rgba(255,255,255,0.04); }
 .row:hover { background: rgba(255,255,255,0.03); }
 .row .t { font-size: 13px; line-height: 1.4; }
