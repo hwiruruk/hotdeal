@@ -26,7 +26,14 @@
     view: loadJSON(LS_VIEW, "columns"),
     sitesInitialized: false,
     search: "",
+    colLimits: {},
+    listLimit: 50,
   };
+
+  const COL_INITIAL = 25;
+  const COL_STEP = 25;
+  const LIST_INITIAL = 50;
+  const LIST_STEP = 50;
 
   function loadJSON(k, fallback) {
     try { const v = localStorage.getItem(k); return v === null ? fallback : JSON.parse(v); }
@@ -90,6 +97,7 @@
         if (cb.checked) state.enabledSites.add(key);
         else state.enabledSites.delete(key);
         saveJSON(LS_SITES, Array.from(state.enabledSites));
+        resetPagination();
         render();
       });
       label.appendChild(cb);
@@ -158,6 +166,11 @@
     if (state.search && !d.title.toLowerCase().includes(state.search)) return false;
     if (state.matchOnly && !matchKeyword(d)) return false;
     return true;
+  }
+
+  function resetPagination() {
+    state.colLimits = {};
+    state.listLimit = LIST_INITIAL;
   }
 
   function render() {
@@ -230,8 +243,23 @@
         e.textContent = meta.ok ? "조건에 맞는 글이 없습니다." : (meta.error || "수집 실패");
         body.appendChild(e);
       } else {
-        for (const d of filtered.slice(0, 100)) {
+        const limit = state.colLimits[key] || COL_INITIAL;
+        for (const d of filtered.slice(0, limit)) {
           body.appendChild(buildRow(d));
+        }
+        if (filtered.length > limit) {
+          const remaining = filtered.length - limit;
+          const more = document.createElement("button");
+          more.type = "button";
+          more.className = "more-btn";
+          more.textContent = `더 보기 (+${Math.min(COL_STEP, remaining)} / 남은 ${remaining})`;
+          more.addEventListener("click", (e) => {
+            e.preventDefault();
+            state.colLimits[key] = limit + COL_STEP;
+            renderColumns();
+            renderStatus();
+          });
+          body.appendChild(more);
         }
       }
       col.appendChild(body);
@@ -270,11 +298,13 @@
     const root = $("#view-list");
     root.innerHTML = "";
     const sources = state.data.sources || {};
-    let shown = 0;
-    for (const d of state.data.deals || []) {
-      if (!dealPassesFilters(d)) continue;
-      const hit = matchKeyword(d);
 
+    const filtered = (state.data.deals || []).filter(dealPassesFilters);
+    const limit = state.listLimit;
+    const visible = filtered.slice(0, limit);
+
+    for (const d of visible) {
+      const hit = matchKeyword(d);
       const el = document.createElement("a");
       el.className = "deal" + (hit ? " match" : "");
       el.href = d.url;
@@ -309,10 +339,25 @@
       el.appendChild(title);
       el.appendChild(meta);
       root.appendChild(el);
-      shown++;
-      if (shown >= 500) break;
     }
-    state._totalShown = shown;
+
+    if (filtered.length > limit) {
+      const remaining = filtered.length - limit;
+      const more = document.createElement("button");
+      more.type = "button";
+      more.className = "more-btn more-btn-wide";
+      more.textContent = `더 보기 (+${Math.min(LIST_STEP, remaining)} / 남은 ${remaining})`;
+      more.addEventListener("click", (e) => {
+        e.preventDefault();
+        state.listLimit = limit + LIST_STEP;
+        renderList();
+        renderStatus();
+      });
+      root.appendChild(more);
+    }
+
+    state._totalShown = visible.length;
+    state._totalFiltered = filtered.length;
   }
 
   function renderStatus() {
@@ -371,6 +416,7 @@
     $("#match-only").addEventListener("change", (e) => {
       state.matchOnly = e.target.checked;
       saveJSON(LS_MATCH_ONLY, state.matchOnly);
+      resetPagination();
       render();
     });
 
@@ -380,6 +426,7 @@
       clearTimeout(searchTimer);
       searchTimer = setTimeout(() => {
         state.search = searchInput.value.trim().toLowerCase();
+        resetPagination();
         render();
       }, 80);
     });
@@ -390,6 +437,7 @@
       } else if (e.key === "Escape" && document.activeElement === searchInput) {
         searchInput.value = "";
         state.search = "";
+        resetPagination();
         render();
       }
     });
