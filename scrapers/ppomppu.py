@@ -5,24 +5,27 @@ from .base import fetch, make_id
 
 SOURCE = "ppomppu"
 BASE = "https://www.ppomppu.co.kr"
-LIST_URL = f"{BASE}/hotdeal/"
+LIST_URLS = [
+    f"{BASE}/zboard/zboard.php?id=ppomppu",
+    f"{BASE}/hotdeal/",
+]
 
 
-def scrape():
-    html = fetch(LIST_URL)
+def _parse(html, base_url):
     soup = BeautifulSoup(html, "lxml")
     items = []
     seen = set()
-
-    for a in soup.select("a"):
+    for a in soup.select("a[href*='view.php']"):
         href = a.get("href") or ""
-        if "zboard/view.php" not in href or "id=ppomppu" not in href:
+        if "id=ppomppu" not in href and "id=ppomppu4" not in href:
             continue
-        title = (a.get_text() or "").strip()
-        title = re.sub(r"\s+", " ", title)
+        title = re.sub(r"\s+", " ", (a.get_text() or "").strip())
         if not title or len(title) < 3:
             continue
-        url = urljoin(BASE + "/hotdeal/", href)
+        if any(t in title for t in ["이전", "다음", "처음", "마지막", "글쓰기"]):
+            continue
+        url = urljoin(base_url, href)
+        url = re.sub(r"&page=\d+", "", url)
         if url in seen:
             continue
         seen.add(url)
@@ -35,3 +38,15 @@ def scrape():
         if len(items) >= 40:
             break
     return items
+
+
+def scrape():
+    for url in LIST_URLS:
+        try:
+            html = fetch(url, headers={"Referer": BASE + "/"})
+        except Exception:
+            continue
+        items = _parse(html, url)
+        if items:
+            return items
+    return []
