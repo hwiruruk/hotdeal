@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>핫딜 모음 + 키워드 알림</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="wrap topbar-inner">
+      <h1>🔥 핫딜 모음 <span class="muted" id="updated"></span></h1>
+      <div class="topbar-search">
+        <input type="search" id="search" placeholder="모든 사이트에서 제목 검색…" autocomplete="off" />
+      </div>
+      <div class="actions">
+        <button id="view-toggle" type="button" title="레이아웃 전환">📊 통합</button>
+        <button id="refresh" type="button">↻</button>
+        <button id="enable-notify" type="button">🔔 알림</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <details class="panel" id="kw-panel">
+      <summary><h2>🔔 키워드 알림 <span class="muted small" id="kw-count"></span></h2></summary>
+      <p class="hint">키워드와 적용 사이트를 선택해 추가하세요. 새 핫딜에 키워드가 포함되면 브라우저 알림이 뜹니다.</p>
+      <form id="kw-form" class="kw-form">
+        <input type="text" id="kw-input" placeholder="예: 갤럭시, 닌텐도, 5만원" autocomplete="off" required />
+        <select id="kw-scope">
+          <option value="all">전체 사이트</option>
+        </select>
+        <button type="submit">추가</button>
+      </form>
+      <ul id="kw-list" class="kw-list"></ul>
+    </details>
+
+    <section class="panel compact">
+      <div class="filter-row">
+        <div id="site-toggles" class="site-toggles"></div>
+        <label class="match-only">
+          <input type="checkbox" id="match-only" />
+          내 키워드 매칭만
+        </label>
+      </div>
+    </section>
+
+    <section id="status" class="status"></section>
+
+    <section id="view-columns" class="view-columns"></section>
+    <section id="view-list" class="view-list hidden"></section>
+  </main>
+
+  <footer class="wrap muted small">
+    데이터는 GitHub Actions가 주기적으로 수집합니다. 원문 페이지로 이동해 확인하세요.
+  </footer>
+
+  <script src="./app.js"></script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+{
+  "updated_at": null,
+  "sources": {
+    "theqoo": { "label": "더쿠", "url": "https://theqoo.net/theqdeal", "ok": true, "error": null, "count": 0 },
+    "arca": { "label": "아카라이브", "url": "https://arca.live/b/hotdeal", "ok": true, "error": null, "count": 0 },
+    "fmkorea": { "label": "에펨코리아", "url": "https://www.fmkorea.com/hotdeal", "ok": true, "error": null, "count": 0 },
+    "ruliweb": { "label": "루리웹", "url": "https://m.ruliweb.com/market/board/1020", "ok": true, "error": null, "count": 0 },
+    "ppomppu": { "label": "뽐뿌", "url": "https://www.ppomppu.co.kr/hotdeal/", "ok": true, "error": null, "count": 0 },
+    "eomisae": { "label": "어미새", "url": "https://eomisae.co.kr/fs", "ok": true, "error": null, "count": 0 }
+  },
+  "deals": []
+}
