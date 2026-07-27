@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-26T23:39:25.972823+00:00",
+  "updated_at": "2026-07-27T01:16:33.279441+00:00",
   "sources": {
     "theqoo": {
       "label": "더쿠",
@@ -25,9 +25,9 @@
     "ruliweb": {
       "label": "루리웹",
       "url": "https://m.ruliweb.com/market/board/1020",
-      "ok": true,
-      "error": null,
-      "count": 30
+      "ok": false,
+      "error": "HTTPSConnectionPool(host='m.ruliweb.com', port=443): Max retries exceeded with url: /market/board/1020 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1016)')))",
+      "count": 0
     },
     "ppomppu": {
       "label": "뽐뿌",
@@ -45,6 +45,350 @@
     }
   },
   "deals": [
+    {
+      "id": "9fa107f716936527",
+      "source": "theqoo",
+      "title": "더블유랩 리얼샷 마스크팩 5매",
+      "url": "https://theqoo.net/theqdeal/4292866510",
+      "first_seen": "2026-07-27T01:16:33.279441+00:00",
+      "last_seen": "2026-07-27T01:16:33.279441+00:00"
+    },
+    {
+      "id": "97ffa6cad59088f6",
+      "source": "theqoo",
+      "title": "리스테린 딜 안뜨니?",
+      "url": "https://theqoo.net/theqdeal/4292865753",
+      "first_seen": "2026-07-27T01:16:33.279441+00:00",
+      "last_seen": "2026-07-27T01:16:33.279441+00:00"
+    },
+    {
+      "id": "1a7e66453fc639cd",
+      "source": "theqoo",
+      "title": "몽돌 버클 스트랩 레인부츠",
+      "url": "https://theqoo.net/theqdeal/4292864493",
+      "first_seen": "2026-07-27T01:16:33.279441+00:00",
+      "last_seen": "2026-07-27T01:16:33.279441+00:00"
+    },
+    {
+      "id": "04d6ae57d9be904f",
+      "source": "theqoo",
+      "title": "서울우유 멸균우유 200ml 24팩",
+      "url": "https://theqoo.net/theqdeal/4292862418",
+      "first_seen": "2026-07-27T01:16:33.279441+00:00",
+      "last_seen": "2026-07-27T01:16:33.279441+00:00"
+    },
+    {
+      "id": "0ff971a29a45dd22",
+      "source": "theqoo",
+      "title": "가그린 구강청결제 / 검가드 치약",
+      "url": "https://theqoo.net/theqdeal/4292860966",
+      "first_seen": "2026-07-27T01:16:33.279441+00:00",
+      "last_seen": "2026-07-27T01:16:33.279441+00:00"
+    },
+    {
+      "id": "eb1fb0d4fdcf4809",
+      "source": "theqoo",
+      "title": "쌍계명차 라이브 특가 애사비&말차 ~54% 할인",
+      "url": "https://theqoo.net/theqdeal/4292855387",
+      "first_seen": "2026-07-27T01:16:33.279441+00:00",
+      "last_seen": "2026-07-27T01:16:33.279441+00:00"
+    },
+    {
+      "id": "3d6d1c5aee6360ed",
+      "source": "theqoo",
+      "title": "토스퀴즈",
+      "url": "https://theqoo.net/theqdeal/4292855203",
+      "first_seen": "2026-07-27T01:16:33.279441+00:00",
+      "last_seen": "2026-07-27T01:16:33.279441+00:00"
+    },
+    {
+      "id": "b30989bf9b04661e",
+      "source": "theqoo",
+      "title": "코웨이 아이콘 얼음정수기 미니",
+      "url": "https://theqoo.net/theqdeal/4292854099",
+      "first_seen": "2026-07-27T01:16:33.279441+00:00",
+      "last_seen": "2026-07-27T01:16:33.279441+00:00"
+    },
+    {
+      "id": "b46f00d2e3a1e0e0",
+      "source": "theqoo",
+      "title": "ㅇㄷㄷ 에어컨 고장났어",
+      "url": "https://theqoo.net/theqdeal/4292850335",
+      "first_seen": "2026-07-27T01:16:33.279441+00:00",
+      "last_seen": "2026-07-27T01:16:33.279441+00:00"
+    },
+    {
+      "id": "b3b2928a0ffa103f",
+      "source": "theqoo",
+      "title": "ㅇㄷㄷ 무선청소기 추천 가능한덬있어?",
+      "url": "https://theqoo.net/theqdeal/4292849247",
+      "first_seen": "2026-07-27T01:16:33.279441+00:00",
+      "last_seen": "2026-07-27T01:16:33.279441+00:00"
+    },
+    {
+      "id": "d8e010cfe78e01c0",
+      "source": "theqoo",
+      "title": "토스 푸주 제육 궁금해하는 덬 있어서 써봐",
+      "url": "https://theqoo.net/theqdeal/4292841026",
+      "first_seen": "2026-07-27T01:16:33.279441+00:00",
+      "last_seen": "2026-07-27T01:16:33.279441+00:00"
+    },
+    {
+      "id": "f926fb72990088ac",
+      "source": "theqoo",
+      "title": "10시 [라운지전용 배송비딜] 빌리프 아쿠아 밤 프로즌 토너 20ml+프로즌 크림 10ml",
+      "url": "https://theqoo.net/theqdeal/4292840453",
+      "first_seen": "2026-07-27T01:16:33.279441+00:00",
+      "last_seen": "2026-07-27T01:16:33.279441+00:00"
+    },
+    {
+      "id": "a5c8f0809b23d549",
+      "source": "theqoo",
+      "title": "10시 [알림받기 전용][배송비딜] 숨37 시크릿 피부 장벽 KIT",
+      "url": "https://theqoo.net/theqdeal/4292840167",
+      "first_seen": "2026-07-27T01:16:33.279441+00:00",
+      "last_seen": "2026-07-27T01:16:33.279441+00:00"
+    },
+    {
+      "id": "2328b4df9d27ecc6",
+      "source": "theqoo",
+      "title": "혹시 쌀 택배 받을 때 박스가 아닌 포대로 받아도 괜찮았어?",
+      "url": "https://theqoo.net/theqdeal/4292839826",
+      "first_seen": "2026-07-27T01:16:33.279441+00:00",
+      "last_seen": "2026-07-27T01:16:33.279441+00:00"
+    },
+    {
+      "id": "b6023aefb097c7b5",
+      "source": "theqoo",
+      "title": "Gsshop 3시 3000원 적립금준다",
+      "url": "https://theqoo.net/theqdeal/4292839048",
+      "first_seen": "2026-07-27T01:16:33.279441+00:00",
+      "last_seen": "2026-07-27T01:16:33.279441+00:00"
+    },
+    {
+      "id": "a21ee334008fde6b",
+      "source": "theqoo",
+      "title": "발가락양말 딜 없나요",
+      "url": "https://theqoo.net/theqdeal/4292830044",
+      "first_seen": "2026-07-27T01:16:33.279441+00:00",
+      "last_seen": "2026-07-27T01:16:33.279441+00:00"
+    },
+    {
+      "id": "acc29b0eafa8d7fc",
+      "source": "theqoo",
+      "title": "25년 아산 맑은쌀 삼광 특등급 10kg",
+      "url": "https://theqoo.net/theqdeal/4292828135",
+      "first_seen": "2026-07-27T01:16:33.279441+00:00",
+      "last_seen": "2026-07-27T01:16:33.279441+00:00"
+    },
+    {
+      "id": "e82e2675558634b2",
+      "source": "theqoo",
+      "title": "ㅇㄷㄷ 엘지 중국생산 냉장고 살 말??",
+      "url": "https://theqoo.net/theqdeal/4292826602",
+      "first_seen": "2026-07-27T01:16:33.279441+00:00",
+      "last_seen": "2026-07-27T01:16:33.279441+00:00"
+    },
+    {
+      "id": "4ffb52909eb13bdb",
+      "source": "theqoo",
+      "title": "미에로화이바 스파클링제로슈가 캔 250ml 30캔",
+      "url": "https://theqoo.net/theqdeal/4292824014",
+      "first_seen": "2026-07-27T01:16:33.279441+00:00",
+      "last_seen": "2026-07-27T01:16:33.279441+00:00"
+    },
+    {
+      "id": "208af0be54969946",
+      "source": "theqoo",
+      "title": "삼성 온누리 검토완료 뜨고 얼마만에 들어왔어?",
+      "url": "https://theqoo.net/theqdeal/4292821208",
+      "first_seen": "2026-07-27T01:16:33.279441+00:00",
+      "last_seen": "2026-07-27T01:16:33.279441+00:00"
+    },
+    {
+      "id": "7f587aa7841b173a",
+      "source": "ppomppu",
+      "title": "[네이버]비타도스C 3000 30포 (2,960원/네멤무배)",
+      "url": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&divpage=114&no=722852",
+      "first_seen": "2026-07-27T01:16:33.279441+00:00",
+      "last_seen": "2026-07-27T01:16:33.279441+00:00"
+    },
+    {
+      "id": "d74cb7d9459f863a",
+      "source": "ppomppu",
+      "title": "[롯데온]국내산 전라도 배추겉절이김치 1kg (5,250원/무료)",
+      "url": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&divpage=114&no=722851",
+      "first_seen": "2026-07-27T01:16:33.279441+00:00",
+      "last_seen": "2026-07-27T01:16:33.279441+00:00"
+    },
+    {
+      "id": "144479da1dacc173",
+      "source": "ppomppu",
+      "title": "[네이버]숀리 하이퍼 문틀철봉 (29,300원/무료)",
+      "url": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&divpage=114&no=722850",
+      "first_seen": "2026-07-27T01:16:33.279441+00:00",
+      "last_seen": "2026-07-27T01:16:33.279441+00:00"
+    },
+    {
+      "id": "04ebac50705f0f0f",
+      "source": "ppomppu",
+      "title": "[옥션]아오리 썸머킹 청사과 2kg 중과 10과 내외 (9,980원/무료)",
+      "url": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&divpage=114&no=722849",
+      "first_seen": "2026-07-27T01:16:33.279441+00:00",
+      "last_seen": "2026-07-27T01:16:33.279441+00:00"
+    },
+    {
+      "id": "6dbf6c56747e6fd6",
+      "source": "ppomppu",
+      "title": "[11번가]보디가드/제임스딘 COOL 남여 런닝/드로즈/브라 모음전 (4,000원~/무료)",
+      "url": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&divpage=114&no=722848",
+      "first_seen": "2026-07-27T01:16:33.279441+00:00",
+      "last_seen": "2026-07-27T01:16:33.279441+00:00"
+    },
+    {
+      "id": "ac62f605d8206257",
+      "source": "ppomppu",
+      "title": "[롯데온]청정원 콤비네이션피자 2종 4판 (14,860원/무료)",
+      "url": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&divpage=114&no=722847",
+      "first_seen": "2026-07-27T01:16:33.279441+00:00",
+      "last_seen": "2026-07-27T01:16:33.279441+00:00"
+    },
+    {
+      "id": "e0532bdf0187808e",
+      "source": "ppomppu",
+      "title": "[롯데온]캘빈클라인 남성 드로즈 CK 팬티 5종 세트(39,810원/무배)",
+      "url": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&divpage=114&no=722846",
+      "first_seen": "2026-07-27T01:16:33.279441+00:00",
+      "last_seen": "2026-07-27T01:16:33.279441+00:00"
+    },
+    {
+      "id": "8c7427a75239358e",
+      "source": "ppomppu",
+      "title": "[네이버]베베숲 프리미어 플러스 물티슈 70매*20팩 (20,120원/무료)",
+      "url": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&divpage=114&no=722845",
+      "first_seen": "2026-07-27T01:16:33.279441+00:00",
+      "last_seen": "2026-07-27T01:16:33.279441+00:00"
+    },
+    {
+      "id": "1a27b565a06226aa",
+      "source": "ppomppu",
+      "title": "[네이버]국내산 밀양 햇당근 중 2kg (5,800원/무료배송)",
+      "url": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&divpage=114&no=722844",
+      "first_seen": "2026-07-27T01:16:33.279441+00:00",
+      "last_seen": "2026-07-27T01:16:33.279441+00:00"
+    },
+    {
+      "id": "ad8a60a169b91bbb",
+      "source": "ppomppu",
+      "title": "[코웨이]코웨이페스타 아이콘 얼음정수기 (21,450원~/무료)",
+      "url": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&divpage=114&no=722843",
+      "first_seen": "2026-07-27T01:16:33.279441+00:00",
+      "last_seen": "2026-07-27T01:16:33.279441+00:00"
+    },
+    {
+      "id": "3602712ad44b4a8b",
+      "source": "ppomppu",
+      "title": "[sk스토아]생활공작소 키친타올 100매 x 9팩 (13,930원/무료)",
+      "url": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&divpage=114&no=722842",
+      "first_seen": "2026-07-27T01:16:33.279441+00:00",
+      "last_seen": "2026-07-27T01:16:33.279441+00:00"
+    },
+    {
+      "id": "de30d9799733bae2",
+      "source": "ppomppu",
+      "title": "[토스]숨 데일리 화장지 천연펄프 3겹 30m 30롤 2팩 (11,900원/무료)",
+      "url": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&divpage=114&no=722841",
+      "first_seen": "2026-07-27T01:16:33.279441+00:00",
+      "last_seen": "2026-07-27T01:16:33.279441+00:00"
+    },
+    {
+      "id": "5183d6aee4f8612c",
+      "source": "ppomppu",
+      "title": "[롯데온]고래사어묵 프리미엄어묵세트 (15종 /25개) (31,860원/무료)",
+      "url": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&divpage=114&no=722840",
+      "first_seen": "2026-07-27T01:16:33.279441+00:00",
+      "last_seen": "2026-07-27T01:16:33.279441+00:00"
+    },
+    {
+      "id": "3d066cd379862698",
+      "source": "ppomppu",
+      "title": "[우체국쇼핑](농할) 국내산 새송이 버섯 1kg(특품) (5320/무료)",
+      "url": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&divpage=114&no=722839",
+      "first_seen": "2026-07-27T01:16:33.279441+00:00",
+      "last_seen": "2026-07-27T01:16:33.279441+00:00"
+    },
+    {
+      "id": "e1cd327250d8053c",
+      "source": "ppomppu",
+      "title": "[토스]푸주 한돈 고추장 돼지불고기, 300g, 4개(6,500원/무료)",
+      "url": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&divpage=114&no=722838",
+      "first_seen": "2026-07-27T01:16:33.279441+00:00",
+      "last_seen": "2026-07-27T01:16:33.279441+00:00"
+    },
+    {
+      "id": "0d31b6b2ac6df1d0",
+      "source": "ppomppu",
+      "title": "[지마켓]트라이 릴렉스 소프트 남성 드로즈 5매 세트 (6,720원/무료)",
+      "url": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&divpage=114&no=722837",
+      "first_seen": "2026-07-27T01:16:33.279441+00:00",
+      "last_seen": "2026-07-27T01:16:33.279441+00:00"
+    },
+    {
+      "id": "3004ee0b1061d10e",
+      "source": "ppomppu",
+      "title": "[G마켓]75g 고평량 시그니앙 오가든 20팩 캡형 77매 엠보 아기물티슈 (19,950원/무배)",
+      "url": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&divpage=114&no=722836",
+      "first_seen": "2026-07-27T01:16:33.279441+00:00",
+      "last_seen": "2026-07-27T01:16:33.279441+00:00"
+    },
+    {
+      "id": "d94ea0091d056fc1",
+      "source": "ppomppu",
+      "title": "[옥션]헬스브로 칼슘 마그네슘 아연 비타민D 180정 (11,900원/무료)",
+      "url": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&divpage=114&no=722835",
+      "first_seen": "2026-07-27T01:16:33.279441+00:00",
+      "last_seen": "2026-07-27T01:16:33.279441+00:00"
+    },
+    {
+      "id": "88237f28012474fa",
+      "source": "ppomppu",
+      "title": "[11번가]바세린 올데이 바디로션 1000ml 2개 (13,900원/무료)",
+      "url": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&divpage=114&no=722834",
+      "first_seen": "2026-07-27T01:16:33.279441+00:00",
+      "last_seen": "2026-07-27T01:16:33.279441+00:00"
+    },
+    {
+      "id": "d8ada922697e59bd",
+      "source": "ppomppu",
+      "title": "[오늘의집]유러피안 샐러드 1kg 실중량 (6,930원/무료)",
+      "url": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&divpage=114&no=722833",
+      "first_seen": "2026-07-27T01:16:33.279441+00:00",
+      "last_seen": "2026-07-27T01:16:33.279441+00:00"
+    },
+    {
+      "id": "e26b63bacecfb050",
+      "source": "eomisae",
+      "title": "한예지 가든 플라워 롤 화장지 / 3겹 / 30m / 30...",
+      "url": "https://eomisae.co.kr/fs/195789769",
+      "first_seen": "2026-07-27T01:16:33.279441+00:00",
+      "last_seen": "2026-07-27T01:16:33.279441+00:00"
+    },
+    {
+      "id": "d8b075c3ebc22ec7",
+      "source": "eomisae",
+      "title": "7/27 네이버포인트",
+      "url": "https://eomisae.co.kr/fs/195767399",
+      "first_seen": "2026-07-27T01:16:33.279441+00:00",
+      "last_seen": "2026-07-27T01:16:33.279441+00:00"
+    },
+    {
+      "id": "02f8c433d18225a1",
+      "source": "eomisae",
+      "title": "CGV 스파이더맨: 브랜드 뉴 데이 2D 관람권 7,900원",
+      "url": "https://eomisae.co.kr/fs/195767694",
+      "first_seen": "2026-07-27T01:16:33.279441+00:00",
+      "last_seen": "2026-07-27T01:16:33.279441+00:00"
+    },
     {
       "id": "3414daed217d25a1",
       "source": "theqoo",
@@ -166,18 +510,18 @@
       "last_seen": "2026-07-26T23:39:25.972823+00:00"
     },
     {
-      "id": "f1139dbab7366cae",
-      "source": "eomisae",
-      "title": "CGV 스파이더맨: 브랜드 뉴 데이 관람권 7,900원",
-      "url": "https://eomisae.co.kr/fs/195783805",
-      "first_seen": "2026-07-26T23:39:25.972823+00:00",
-      "last_seen": "2026-07-26T23:39:25.972823+00:00"
-    },
-    {
       "id": "55eae25083d1b31c",
       "source": "eomisae",
       "title": "구이디 더비, 르메르 기어백 등등",
       "url": "https://eomisae.co.kr/fs/195771032",
+      "first_seen": "2026-07-26T23:39:25.972823+00:00",
+      "last_seen": "2026-07-27T01:16:33.279441+00:00"
+    },
+    {
+      "id": "f1139dbab7366cae",
+      "source": "eomisae",
+      "title": "CGV 스파이더맨: 브랜드 뉴 데이 관람권 7,900원",
+      "url": "https://eomisae.co.kr/fs/195783805",
       "first_seen": "2026-07-26T23:39:25.972823+00:00",
       "last_seen": "2026-07-26T23:39:25.972823+00:00"
     },
@@ -230,20 +574,20 @@
       "last_seen": "2026-07-26T23:39:25.972823+00:00"
     },
     {
-      "id": "5e010dcddbb93d9f",
-      "source": "eomisae",
-      "title": "[체험팩] 연세우유 우베라떼 190ml 6개 3,900원",
-      "url": "https://eomisae.co.kr/fs/195771927",
-      "first_seen": "2026-07-26T18:11:56.220677+00:00",
-      "last_seen": "2026-07-26T23:39:25.972823+00:00"
-    },
-    {
       "id": "8a7fdce186e65f4a",
       "source": "eomisae",
       "title": "list_ad_link",
       "url": "https://eomisae.co.kr/fs/195772291",
       "first_seen": "2026-07-26T18:11:56.220677+00:00",
-      "last_seen": "2026-07-26T21:36:16.388901+00:00"
+      "last_seen": "2026-07-27T01:16:33.279441+00:00"
+    },
+    {
+      "id": "5e010dcddbb93d9f",
+      "source": "eomisae",
+      "title": "[체험팩] 연세우유 우베라떼 190ml 6개 3,900원",
+      "url": "https://eomisae.co.kr/fs/195771927",
+      "first_seen": "2026-07-26T18:11:56.220677+00:00",
+      "last_seen": "2026-07-27T01:16:33.279441+00:00"
     },
     {
       "id": "d1d21e07b6e0dac3",
@@ -275,7 +619,7 @@
       "title": "(무료반품) 키츠네 티셔츠 ₩57,140~",
       "url": "https://eomisae.co.kr/fs/195769370",
       "first_seen": "2026-07-26T17:14:20.342000+00:00",
-      "last_seen": "2026-07-26T23:39:25.972823+00:00"
+      "last_seen": "2026-07-27T01:16:33.279441+00:00"
     },
     {
       "id": "63ffdfa590f5a3d8",
@@ -635,7 +979,7 @@
       "title": "노스페이스 라이트 쉴드 EX 햇 43,600원 외",
       "url": "https://eomisae.co.kr/fs/195751652",
       "first_seen": "2026-07-26T16:12:32.745708+00:00",
-      "last_seen": "2026-07-26T23:39:25.972823+00:00"
+      "last_seen": "2026-07-27T01:16:33.279441+00:00"
     },
     {
       "id": "cae7c805b118ef35",
@@ -1195,7 +1539,7 @@
       "title": "[문선] Marine Stripe Ringer T / Black, 9,900원",
       "url": "https://eomisae.co.kr/fs/195721206",
       "first_seen": "2026-07-26T12:14:12.402615+00:00",
-      "last_seen": "2026-07-26T23:39:25.972823+00:00"
+      "last_seen": "2026-07-27T01:16:33.279441+00:00"
     },
     {
       "id": "0c1ce0a2bbbea221",
@@ -1275,7 +1619,7 @@
       "title": "[롯데온]CQR 쿨링 반팔 티셔츠 (7,890원/무료)",
       "url": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&divpage=114&no=722750",
       "first_seen": "2026-07-26T11:01:27.495379+00:00",
-      "last_seen": "2026-07-26T20:34:53.935074+00:00"
+      "last_seen": "2026-07-27T01:16:33.279441+00:00"
     },
     {
       "id": "7851fbbea2921f3a",
@@ -1395,7 +1739,7 @@
       "title": "파인애플 스틱 1kg 8,370원",
       "url": "https://eomisae.co.kr/fs/195723832",
       "first_seen": "2026-07-26T11:01:27.495379+00:00",
-      "last_seen": "2026-07-26T23:39:25.972823+00:00"
+      "last_seen": "2026-07-27T01:16:33.279441+00:00"
     },
     {
       "id": "aaf9036d29cd49e0",
@@ -1707,7 +2051,7 @@
       "title": "고평량(75gsm) 물티슈 10팩 ₩8,800",
       "url": "https://eomisae.co.kr/fs/195680112",
       "first_seen": "2026-07-26T09:29:35.922051+00:00",
-      "last_seen": "2026-07-26T23:39:25.972823+00:00"
+      "last_seen": "2026-07-27T01:16:33.279441+00:00"
     },
     {
       "id": "044933a3a02f0d77",
@@ -1715,7 +2059,7 @@
       "title": "젠테 스톤아일랜드 심리스터널 패딩 네이비 76만",
       "url": "https://eomisae.co.kr/fs/195714774",
       "first_seen": "2026-07-26T09:29:35.922051+00:00",
-      "last_seen": "2026-07-26T23:39:25.972823+00:00"
+      "last_seen": "2026-07-27T01:16:33.279441+00:00"
     },
     {
       "id": "82343b197bc6eafd",
@@ -1723,7 +2067,7 @@
       "title": "AHC 마스터즈 에어리치 선스틱 14g 2개 15,750원",
       "url": "https://eomisae.co.kr/fs/195706508",
       "first_seen": "2026-07-26T09:29:35.922051+00:00",
-      "last_seen": "2026-07-26T23:39:25.972823+00:00"
+      "last_seen": "2026-07-27T01:16:33.279441+00:00"
     },
     {
       "id": "334a25e5bbc855c5",
@@ -2043,7 +2387,7 @@
       "title": "라버비 건조기 시트 120매 2개 6900원",
       "url": "https://eomisae.co.kr/fs/195708558",
       "first_seen": "2026-07-26T07:18:56.405648+00:00",
-      "last_seen": "2026-07-26T23:39:25.972823+00:00"
+      "last_seen": "2026-07-27T01:16:33.279441+00:00"
     },
     {
       "id": "d83711f0c2dbbe72",
@@ -2347,7 +2691,7 @@
       "title": "하이마트 탁상용 선풍기, 넥밴드 9,900원",
       "url": "https://eomisae.co.kr/fs/195698340",
       "first_seen": "2026-07-26T04:41:45.227166+00:00",
-      "last_seen": "2026-07-26T23:39:25.972823+00:00"
+      "last_seen": "2026-07-27T01:16:33.279441+00:00"
     },
     {
       "id": "0550ac3790253a90",
@@ -2355,7 +2699,7 @@
       "title": "(무료반품) 돌섬 26fw 심리스 나일론 패딩",
       "url": "https://eomisae.co.kr/fs/195700560",
       "first_seen": "2026-07-26T04:41:45.227166+00:00",
-      "last_seen": "2026-07-26T23:39:25.972823+00:00"
+      "last_seen": "2026-07-27T01:16:33.279441+00:00"
     },
     {
       "id": "ddc05826f5cf7607",
@@ -2363,7 +2707,7 @@
       "title": "쿠어 수피마 코튼 반팔티 2장 37270원",
       "url": "https://eomisae.co.kr/fs/195666317",
       "first_seen": "2026-07-26T04:41:45.227166+00:00",
-      "last_seen": "2026-07-26T23:39:25.972823+00:00"
+      "last_seen": "2026-07-27T01:16:33.279441+00:00"
     },
     {
       "id": "42d7bcfbb979c2ef",
@@ -2371,7 +2715,7 @@
       "title": "아크테릭스 스쿼미시 24, 베타 54",
       "url": "https://eomisae.co.kr/fs/195704451",
       "first_seen": "2026-07-26T04:41:45.227166+00:00",
-      "last_seen": "2026-07-26T23:39:25.972823+00:00"
+      "last_seen": "2026-07-27T01:16:33.279441+00:00"
     },
     {
       "id": "91d7bf5822cf5ebe",
@@ -2939,7 +3283,7 @@
       "title": "7/25 네이버포인트",
       "url": "https://eomisae.co.kr/fs/195577453",
       "first_seen": "2026-07-25T15:35:40.377380+00:00",
-      "last_seen": "2026-07-26T23:39:25.972823+00:00"
+      "last_seen": "2026-07-27T01:16:33.279441+00:00"
     },
     {
       "id": "8a3956f753e1553d",
@@ -2947,7 +3291,7 @@
       "title": "디스커스애슬레틱/스포츠 숏 슬리브 8,000원 외",
       "url": "https://eomisae.co.kr/fs/195627137",
       "first_seen": "2026-07-25T15:35:40.377380+00:00",
-      "last_seen": "2026-07-26T23:39:25.972823+00:00"
+      "last_seen": "2026-07-27T01:16:33.279441+00:00"
     },
     {
       "id": "d716804921e7e9a9",
@@ -8190,46 +8534,6 @@
       "last_seen": "2026-07-23T13:11:31.050484+00:00"
     },
     {
-      "id": "a8906664ee475b01",
-      "source": "theqoo",
-      "title": "ㅇㄷㄷ 감사제 때 갤탭 산 뚜기들아 장비(?) 다 샀어?",
-      "url": "https://theqoo.net/theqdeal/4289396519",
-      "first_seen": "2026-07-23T13:11:31.050484+00:00",
-      "last_seen": "2026-07-23T13:11:31.050484+00:00"
-    },
-    {
-      "id": "cd809b3a736563d1",
-      "source": "theqoo",
-      "title": "ㅇㄷㄷ과자나 군것질 이것도 안먹다버릇하니 별로 안땡기네",
-      "url": "https://theqoo.net/theqdeal/4289394519",
-      "first_seen": "2026-07-23T13:11:31.050484+00:00",
-      "last_seen": "2026-07-23T13:11:31.050484+00:00"
-    },
-    {
-      "id": "eb32f6961eed54b3",
-      "source": "theqoo",
-      "title": "미쳣나바 토스 100원 당첨됏어 ㅋㅋㅋㅋ",
-      "url": "https://theqoo.net/theqdeal/4289390235",
-      "first_seen": "2026-07-23T13:11:31.050484+00:00",
-      "last_seen": "2026-07-23T13:11:31.050484+00:00"
-    },
-    {
-      "id": "0d4000f1328797e6",
-      "source": "theqoo",
-      "title": "ㅇㄷㄷ 삼성 온누리 지급 문자 받고 얼마만에 돈 들어왔어??",
-      "url": "https://theqoo.net/theqdeal/4289386825",
-      "first_seen": "2026-07-23T13:11:31.050484+00:00",
-      "last_seen": "2026-07-23T13:11:31.050484+00:00"
-    },
-    {
-      "id": "8051341bb87f30d8",
-      "source": "theqoo",
-      "title": "갤폴드8 구매하려는 덬있어?",
-      "url": "https://theqoo.net/theqdeal/4289380283",
-      "first_seen": "2026-07-23T13:11:31.050484+00:00",
-      "last_seen": "2026-07-23T13:11:31.050484+00:00"
-    },
-    {
       "id": "13beef0805e596a7",
       "source": "ppomppu",
       "title": "[네이버]필립스 TAH5209 오버이어 블루투스 헤드폰 (29,800원 / 무료)",
@@ -8396,126 +8700,6 @@
       "url": "https://eomisae.co.kr/fs/195210716",
       "first_seen": "2026-07-23T13:11:31.050484+00:00",
       "last_seen": "2026-07-24T14:45:12.181222+00:00"
-    },
-    {
-      "id": "dde7aca1d18e6c66",
-      "source": "theqoo",
-      "title": "버즈4프로 이번에 산덬들.. 지직거리는 풀숲소리 나는거 원래이래?",
-      "url": "https://theqoo.net/theqdeal/4289367704",
-      "first_seen": "2026-07-23T11:32:28.399482+00:00",
-      "last_seen": "2026-07-23T13:11:31.050484+00:00"
-    },
-    {
-      "id": "71d4667805343760",
-      "source": "theqoo",
-      "title": "갤폴드 존예다 온누리기간때 나왔으면 이거샀을듯",
-      "url": "https://theqoo.net/theqdeal/4289360438",
-      "first_seen": "2026-07-23T11:32:28.399482+00:00",
-      "last_seen": "2026-07-23T13:11:31.050484+00:00"
-    },
-    {
-      "id": "cc6815468406fa1d",
-      "source": "theqoo",
-      "title": "버즈4프로 귀가 너무 아픔...",
-      "url": "https://theqoo.net/theqdeal/4289357701",
-      "first_seen": "2026-07-23T11:32:28.399482+00:00",
-      "last_seen": "2026-07-23T13:11:31.050484+00:00"
-    },
-    {
-      "id": "c68383af1f0634d6",
-      "source": "theqoo",
-      "title": "ㄴㅇㅂ 쇼핑라이브 보고 20원 받아",
-      "url": "https://theqoo.net/theqdeal/4289356997",
-      "first_seen": "2026-07-23T11:32:28.399482+00:00",
-      "last_seen": "2026-07-23T13:11:31.050484+00:00"
-    },
-    {
-      "id": "d27ca5401d87976a",
-      "source": "theqoo",
-      "title": "올영 6만원 이상 구매시 1만원 할인 쿠폰 받았는데",
-      "url": "https://theqoo.net/theqdeal/4289356614",
-      "first_seen": "2026-07-23T11:32:28.399482+00:00",
-      "last_seen": "2026-07-23T13:11:31.050484+00:00"
-    },
-    {
-      "id": "898453c84538512f",
-      "source": "theqoo",
-      "title": "누아트스튜디오 나일론 노트북 백팩",
-      "url": "https://theqoo.net/theqdeal/4289355413",
-      "first_seen": "2026-07-23T11:32:28.399482+00:00",
-      "last_seen": "2026-07-23T11:32:28.399482+00:00"
-    },
-    {
-      "id": "abb7a8dfe27b108d",
-      "source": "theqoo",
-      "title": "네고왕 뭐하는지 잘 모르는데 덬딜방 덕분에 3M막대걸레 샀다 ㅋㅋㅋ",
-      "url": "https://theqoo.net/theqdeal/4289353219",
-      "first_seen": "2026-07-23T11:32:28.399482+00:00",
-      "last_seen": "2026-07-23T11:32:28.399482+00:00"
-    },
-    {
-      "id": "c181df9739e452b8",
-      "source": "theqoo",
-      "title": "지오다노 베이직 이너 나시",
-      "url": "https://theqoo.net/theqdeal/4289351126",
-      "first_seen": "2026-07-23T11:32:28.399482+00:00",
-      "last_seen": "2026-07-23T11:32:28.399482+00:00"
-    },
-    {
-      "id": "f7d9e09c2e1811d4",
-      "source": "theqoo",
-      "title": "우리동네 마트 쌀20kg 49800원에 파는데 살까?",
-      "url": "https://theqoo.net/theqdeal/4289350560",
-      "first_seen": "2026-07-23T11:32:28.399482+00:00",
-      "last_seen": "2026-07-23T11:32:28.399482+00:00"
-    },
-    {
-      "id": "de9e363930a67427",
-      "source": "theqoo",
-      "title": "리마지 칼슘 아이크림 ~70% 썸머블프",
-      "url": "https://theqoo.net/theqdeal/4289340773",
-      "first_seen": "2026-07-23T11:32:28.399482+00:00",
-      "last_seen": "2026-07-23T11:32:28.399482+00:00"
-    },
-    {
-      "id": "315a47e88e3c937b",
-      "source": "theqoo",
-      "title": "잘풀리는집 패밀리소프트 화장지 27m 30롤 3팩",
-      "url": "https://theqoo.net/theqdeal/4289340479",
-      "first_seen": "2026-07-23T11:32:28.399482+00:00",
-      "last_seen": "2026-07-23T11:32:28.399482+00:00"
-    },
-    {
-      "id": "14a9c1555ff5ba85",
-      "source": "theqoo",
-      "title": "비비드 저당소스 맛추천좀 해줄덬",
-      "url": "https://theqoo.net/theqdeal/4289337181",
-      "first_seen": "2026-07-23T11:32:28.399482+00:00",
-      "last_seen": "2026-07-23T11:32:28.399482+00:00"
-    },
-    {
-      "id": "5081dcbe896eb6e7",
-      "source": "theqoo",
-      "title": "퓨어스트 라이트 초순수 플레인 아기물티슈 캡형, 100매, 10팩",
-      "url": "https://theqoo.net/theqdeal/4289335617",
-      "first_seen": "2026-07-23T11:32:28.399482+00:00",
-      "last_seen": "2026-07-23T11:32:28.399482+00:00"
-    },
-    {
-      "id": "f684734df20017c1",
-      "source": "theqoo",
-      "title": "홈플러스 문닫는다해서 탈퇴했는데 부활해버려서 그냥 탈퇴한 사람됨",
-      "url": "https://theqoo.net/theqdeal/4289334013",
-      "first_seen": "2026-07-23T11:32:28.399482+00:00",
-      "last_seen": "2026-07-23T11:32:28.399482+00:00"
-    },
-    {
-      "id": "6b3df32008ea12f9",
-      "source": "theqoo",
-      "title": "토스 병아리콩 맛있다",
-      "url": "https://theqoo.net/theqdeal/4289331576",
-      "first_seen": "2026-07-23T11:32:28.399482+00:00",
-      "last_seen": "2026-07-23T11:32:28.399482+00:00"
     },
     {
       "id": "84bca645faa5678e",
@@ -8790,110 +8974,6 @@
       "last_seen": "2026-07-23T09:43:32.182385+00:00"
     },
     {
-      "id": "9a58a5dba80a2be1",
-      "source": "ppomppu",
-      "title": "[오늘의집]필립스 바리스타나 클래식 에스프레도 전자동 커피머신 BAR302/20 (449,100원 / 무료)",
-      "url": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&divpage=114&no=722196",
-      "first_seen": "2026-07-23T09:43:32.182385+00:00",
-      "last_seen": "2026-07-23T09:43:32.182385+00:00"
-    },
-    {
-      "id": "0150dca749285bf5",
-      "source": "ppomppu",
-      "title": "[11번가]미미네 국물떡볶이 서울맛+부산맛 8인분 (15,470원/무료)",
-      "url": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&divpage=114&no=722195",
-      "first_seen": "2026-07-23T09:43:32.182385+00:00",
-      "last_seen": "2026-07-23T09:43:32.182385+00:00"
-    },
-    {
-      "id": "ccfa1e0d0fd2f9d0",
-      "source": "ppomppu",
-      "title": "[G마켓]포켓몬 생태도감 특별판 패키지 (39,690원/무료배송)",
-      "url": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&divpage=114&no=722194",
-      "first_seen": "2026-07-23T09:43:32.182385+00:00",
-      "last_seen": "2026-07-23T09:43:32.182385+00:00"
-    },
-    {
-      "id": "938cc7e527fdf098",
-      "source": "ppomppu",
-      "title": "[옥션]알로에 이뮨 젤리스틱 42포+리유저블백 (16,050원/무료)",
-      "url": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&divpage=114&no=722193",
-      "first_seen": "2026-07-23T09:43:32.182385+00:00",
-      "last_seen": "2026-07-23T09:43:32.182385+00:00"
-    },
-    {
-      "id": "b5aa634da29f429b",
-      "source": "ppomppu",
-      "title": "[카카오]다룸 제로컬렉션 AI 음식물처리기 3L (209,064원/무배)",
-      "url": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&divpage=114&no=722192",
-      "first_seen": "2026-07-23T09:43:32.182385+00:00",
-      "last_seen": "2026-07-23T09:43:32.182385+00:00"
-    },
-    {
-      "id": "bbf578097b43fb84",
-      "source": "ppomppu",
-      "title": "[롯데백화점]노스페이스 트래블 크로스 EX 백 미디움 (42,310원/무료)",
-      "url": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&divpage=114&no=722191",
-      "first_seen": "2026-07-23T09:43:32.182385+00:00",
-      "last_seen": "2026-07-23T09:43:32.182385+00:00"
-    },
-    {
-      "id": "badde671b27898e4",
-      "source": "ppomppu",
-      "title": "[SSG]리파 ReFa CAXA M1 카사 경락괄사 마사지기 페이스롤러 얼굴 리프팅 (BC카드 89,000원/무료)",
-      "url": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&divpage=114&no=722190",
-      "first_seen": "2026-07-23T09:43:32.182385+00:00",
-      "last_seen": "2026-07-23T09:43:32.182385+00:00"
-    },
-    {
-      "id": "98d2900e6873d8f8",
-      "source": "ppomppu",
-      "title": "[지마켓]제주 직송 보우짱 밤단호박 3kg (8,930원/무료배송)",
-      "url": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&divpage=114&no=722189",
-      "first_seen": "2026-07-23T09:43:32.182385+00:00",
-      "last_seen": "2026-07-23T09:43:32.182385+00:00"
-    },
-    {
-      "id": "3ca58de098d084c6",
-      "source": "ppomppu",
-      "title": "[오늘의집]XO 수제통새우만두 4봉 외 4봉+4봉 골라담기 (24,779원/무료)",
-      "url": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&divpage=114&no=722188",
-      "first_seen": "2026-07-23T09:43:32.182385+00:00",
-      "last_seen": "2026-07-23T09:43:32.182385+00:00"
-    },
-    {
-      "id": "1dfa6bb34eafca92",
-      "source": "ppomppu",
-      "title": "[네이버]일양약품 비타민C 1000 플러스 60정 (4,990원/3,500원)",
-      "url": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&divpage=114&no=722187",
-      "first_seen": "2026-07-23T09:43:32.182385+00:00",
-      "last_seen": "2026-07-23T09:43:32.182385+00:00"
-    },
-    {
-      "id": "b6e333324dfe454d",
-      "source": "ppomppu",
-      "title": "[롯데온]국내산 안동학가산김치 고랭지 포기김치 7kg (38,900원/무료)",
-      "url": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&divpage=114&no=722186",
-      "first_seen": "2026-07-23T09:43:32.182385+00:00",
-      "last_seen": "2026-07-23T09:43:32.182385+00:00"
-    },
-    {
-      "id": "f70742af276388a3",
-      "source": "ppomppu",
-      "title": "[오늘의집]진품경기미 햅쌀 10kg 추청 특등급 (31,920원/무료)",
-      "url": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&divpage=114&no=722185",
-      "first_seen": "2026-07-23T09:43:32.182385+00:00",
-      "last_seen": "2026-07-23T09:43:32.182385+00:00"
-    },
-    {
-      "id": "74319412322ffbce",
-      "source": "ppomppu",
-      "title": "[카카오]불스원 소프트 하브 와이퍼 차량 1대(카페머니 10,230원/무배)",
-      "url": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&divpage=114&no=722184",
-      "first_seen": "2026-07-23T09:43:32.182385+00:00",
-      "last_seen": "2026-07-23T09:43:32.182385+00:00"
-    },
-    {
       "id": "3c8a9896f9872c58",
       "source": "eomisae",
       "title": "알디콤 숙취해소제 AVP 각 1포, 총 3포 3000원 멤...",
@@ -8924,62 +9004,6 @@
       "url": "https://bbs.ruliweb.com/market/board/1020/read/105852",
       "first_seen": "2026-07-23T07:15:43.062232+00:00",
       "last_seen": "2026-07-24T14:45:12.181222+00:00"
-    },
-    {
-      "id": "4c644edff433da57",
-      "source": "ppomppu",
-      "title": "[NS몰]괴산 미백 찰옥수수 17cm이상 20개 (11,900원/선착무료)",
-      "url": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&divpage=114&no=722052",
-      "first_seen": "2026-07-23T07:15:43.062232+00:00",
-      "last_seen": "2026-07-24T01:05:50.382530+00:00"
-    },
-    {
-      "id": "ce7e292e82b88c1a",
-      "source": "ppomppu",
-      "title": "[지마켓]펩시제로라임 210ml x60캔 (22850/무료)",
-      "url": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&divpage=114&no=722144",
-      "first_seen": "2026-07-23T07:15:43.062232+00:00",
-      "last_seen": "2026-07-23T07:15:43.062232+00:00"
-    },
-    {
-      "id": "a33eef3ed8d3f5e9",
-      "source": "ppomppu",
-      "title": "[자사몰]오하입 헤어팩 미니 (0원/3,000원)",
-      "url": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&divpage=114&no=722143",
-      "first_seen": "2026-07-23T07:15:43.062232+00:00",
-      "last_seen": "2026-07-23T07:15:43.062232+00:00"
-    },
-    {
-      "id": "bff6a4f566daf85b",
-      "source": "ppomppu",
-      "title": "[옥션]엔젯오리진 칼슘 앤 마그네슘 비타민D 아연 베이직 180정 2통 (18,890원/무료)",
-      "url": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&divpage=114&no=722142",
-      "first_seen": "2026-07-23T07:15:43.062232+00:00",
-      "last_seen": "2026-07-23T07:15:43.062232+00:00"
-    },
-    {
-      "id": "01c2db10007cd288",
-      "source": "ppomppu",
-      "title": "[CJ온스타일]휴대용 포켓티슈 3겹 10매 6개 (4,900원/무료) 적립금소진용",
-      "url": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&divpage=114&no=722140",
-      "first_seen": "2026-07-23T07:15:43.062232+00:00",
-      "last_seen": "2026-07-23T07:15:43.062232+00:00"
-    },
-    {
-      "id": "1581f611a5915035",
-      "source": "ppomppu",
-      "title": "[G마켓]ETENWOLF 에텐울프 Air3 초경량 휴대용 에어펌프 (19,890원/무료)",
-      "url": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&divpage=114&no=722139",
-      "first_seen": "2026-07-23T07:15:43.062232+00:00",
-      "last_seen": "2026-07-23T07:15:43.062232+00:00"
-    },
-    {
-      "id": "650e09fdbc7f43b7",
-      "source": "ppomppu",
-      "title": "[롯데온]더단백 다크초코 330ml 10팩+250ml 30팩 (53,930원/무료)",
-      "url": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&divpage=114&no=722138",
-      "first_seen": "2026-07-23T07:15:43.062232+00:00",
-      "last_seen": "2026-07-23T07:15:43.062232+00:00"
     },
     {
       "id": "e6e88ffbf2c924eb",
@@ -12979,7 +13003,7 @@
       "title": "[🚨필독🚨] 로그인 보안 강화📢시크릿모드 사용자들 필독 (사용안함 옵션 추가)📢",
       "url": "https://theqoo.net/theqdeal/4277558180",
       "first_seen": "2026-07-12T17:40:33.580842+00:00",
-      "last_seen": "2026-07-26T23:39:25.972823+00:00"
+      "last_seen": "2026-07-27T01:16:33.279441+00:00"
     },
     {
       "id": "1219c3856073bc72",
@@ -15974,36 +15998,12 @@
       "last_seen": "2026-07-06T01:21:05.890806+00:00"
     },
     {
-      "id": "f57303a948b8e551",
-      "source": "eomisae",
-      "title": "기한임박) 데일리원 코랄 칼슘 마그네슘 아연 비...",
-      "url": "https://eomisae.co.kr/fs/193107270",
-      "first_seen": "2026-07-05T08:25:43.982227+00:00",
-      "last_seen": "2026-07-06T01:21:05.890806+00:00"
-    },
-    {
-      "id": "4def8102480bfc2e",
-      "source": "eomisae",
-      "title": "리바이스 555 릴렉스 스트레이트 진 / 505 레귤러 진",
-      "url": "https://eomisae.co.kr/fs/193016246",
-      "first_seen": "2026-07-05T08:25:43.982227+00:00",
-      "last_seen": "2026-07-06T01:21:05.890806+00:00"
-    },
-    {
-      "id": "51d3ee05f601f66c",
-      "source": "eomisae",
-      "title": "하이뮨 액티브 딸기 250ml 18개 17,910원",
-      "url": "https://eomisae.co.kr/fs/193093659",
-      "first_seen": "2026-07-05T05:29:19.313757+00:00",
-      "last_seen": "2026-07-05T23:34:14.752044+00:00"
-    },
-    {
       "id": "3a546dc1426446e9",
       "source": "theqoo",
       "title": "링크 비회원 1시간 블라인드 기능이 추가되었습니다.",
       "url": "https://theqoo.net/theqdeal/3670685652",
       "first_seen": "2026-05-19T00:05:27.585486+00:00",
-      "last_seen": "2026-07-26T23:39:25.972823+00:00"
+      "last_seen": "2026-07-27T01:16:33.279441+00:00"
     },
     {
       "id": "e1ef086cd838c0cc",
@@ -16011,7 +16011,7 @@
       "title": "🛍 안 사면 0원 사면 영원 🛍 덬딜방 인구 조사👋",
       "url": "https://theqoo.net/theqdeal/3097693265",
       "first_seen": "2026-05-19T00:05:27.585486+00:00",
-      "last_seen": "2026-07-26T23:39:25.972823+00:00"
+      "last_seen": "2026-07-27T01:16:33.279441+00:00"
     },
     {
       "id": "ca00606c5aa5e8f0",
@@ -16019,7 +16019,7 @@
       "title": "@왕덬 컬리 함께구매 가능한가yo",
       "url": "https://theqoo.net/theqdeal/3092497791",
       "first_seen": "2026-05-19T00:05:27.585486+00:00",
-      "last_seen": "2026-07-26T23:39:25.972823+00:00"
+      "last_seen": "2026-07-27T01:16:33.279441+00:00"
     },
     {
       "id": "b7bfb56df6bd0e30",
@@ -16035,7 +16035,7 @@
       "title": "쇼핑정보 게시판 이용 규정",
       "url": "https://eomisae.co.kr/fs/915341",
       "first_seen": "2026-05-19T00:05:27.585486+00:00",
-      "last_seen": "2026-07-26T23:39:25.972823+00:00"
+      "last_seen": "2026-07-27T01:16:33.279441+00:00"
     },
     {
       "id": "2b484f6332103323",
@@ -16043,7 +16043,7 @@
       "title": "쇼핑정보 상품권 이벤트",
       "url": "https://eomisae.co.kr/fs/2108073",
       "first_seen": "2026-05-19T00:05:27.585486+00:00",
-      "last_seen": "2026-07-26T23:39:25.972823+00:00"
+      "last_seen": "2026-07-27T01:16:33.279441+00:00"
     }
   ]
 }
